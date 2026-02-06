@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'wpmetabox/meta-box',
-        'pretty_version' => '5.10.14',
-        'version' => '5.10.14.0',
-        'reference' => '6f30107179e21ffbc1746e3da5b5e198bca1ac6c',
+        'pretty_version' => '5.11.1',
+        'version' => '5.11.1.0',
+        'reference' => '21cc88efff8892a93a8218ba1b00a142eabb0d86',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'wpmetabox/meta-box' => array(
-            'pretty_version' => '5.10.14',
-            'version' => '5.10.14.0',
-            'reference' => '6f30107179e21ffbc1746e3da5b5e198bca1ac6c',
+            'pretty_version' => '5.11.1',
+            'version' => '5.11.1.0',
+            'reference' => '21cc88efff8892a93a8218ba1b00a142eabb0d86',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

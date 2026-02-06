@@ -4,8 +4,8 @@ Donate link: https://metabox.io/pricing/
 Tags: custom fields, custom post types, post type, custom taxonomies, meta box
 Requires at least: 6.5
 Requires PHP: 7.1
-Tested up to: 6.8.2
-Stable tag: 5.10.14
+Tested up to: 6.9
+Stable tag: 5.11.1
 License: GPLv2 or later
 
 Meta Box plugin is a powerful, professional developer toolkit to create custom meta boxes and custom fields for your custom post types in WordPress.
@@ -117,6 +117,7 @@ Here are a few guides to quickly get you started with Meta Box and creating your
 If you like this plugin, you might also like our other WordPress products:
 
 - [Slim SEO](https://wpslimseo.com) - A fast, lightweight and full-featured SEO plugin for WordPress with minimal configuration.
+- [Falcon](https://wpfalcon.pro) - A lightweight companion for making WordPress faster, cleaner, and more secure.
 - [GretaThemes](https://gretathemes.com) - Free and premium WordPress themes that clean, simple and just work.
 - [Auto Listings](https://wpautolistings.com) - A car sale and dealership plugin for WordPress.
 
@@ -147,13 +148,58 @@ If you want to use Meta Box, please follow these steps:
 
 == Changelog ==
 
+= 5.11.1 - 2026-02-02 =
+
+**Improvements for the block editor field:**
+
+- Add block inspector sidebar
+- Add structure panel to show the list view of blocks
+- Add fullscreen mode
+- Add `height` settings (default is `300px`) and allow resizing the editor
+
+**Fixes for the block editor field:**
+
+- Fix cannot upload images for the image block
+- Fix blank site editor when using the block editor field
+- Fix custom rich text formats not working
+- Fix conflicts with `image_advanced` and `file_advanced` fields
+
+** Other changes:**
+
+- Fix cannot create new terms with required date/time fields
+
+= 5.11.0 - 2026-01-15 =
+
+- Add new field type: `block_editor`. See more details on our [blog post](https://metabox.io/block-editor-field-type/) and [documentation](https://docs.metabox.io/fields/block-editor/).
+
+= 5.10.19 - 2025-11-24 =
+
+- Fix the `use` statement with non-compound name has no effect
+
+= 5.10.18 - 2025-11-24 =
+
+- Fix deprecation message for `datetime` field
+
+= 5.10.17 - 2025-11-07 =
+
+- WPML integration: fix error when filtering value for helper functions when no fields are found.
+
+= 5.10.16 - 2025-11-05 =
+
+- WPML integration: filter helper functions to get the translated IDs for `post` field
+- Fix cloning `post` field not clearing the value
+
+= 5.10.15 - 2025-10-06 =
+
+- Add `marker_draggable` option for `map`/`osm` fields to disable changing the pin on the map.
+
 = 5.10.14 - 2025-09-15 =
 
-Update dependencies
+- Update dependencies
 
 = 5.10.13 - 2025-08-14 =
 
-Fix `get_current_screen()` error for term meta
+- Fix `get_current_screen()` error for term meta
 
 = 5.10.12 - 2025-08-13 =
 
