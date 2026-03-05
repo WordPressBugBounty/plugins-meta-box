@@ -4,8 +4,8 @@ Donate link: https://metabox.io/pricing/
 Tags: custom fields, custom post types, post type, custom taxonomies, meta box
 Requires at least: 6.5
 Requires PHP: 7.1
-Tested up to: 6.9
-Stable tag: 5.11.1
+Tested up to: 6.9.1
+Stable tag: 5.11.2
 License: GPLv2 or later
 
 Meta Box plugin is a powerful, professional developer toolkit to create custom meta boxes and custom fields for your custom post types in WordPress.
@@ -148,6 +148,22 @@ If you want to use Meta Box, please follow these steps:
 
 == Changelog ==
 
+= 5.11.2 - 2026-03-05 =
+
+**Improvements for the block editor field:**
+
+- Add breadcrumbs
+- Fix compatibility with Block Visibility plugin
+- Fix not loading 3rd-party blocks
+- Improve the CSS
+
+**Other changes:**
+
+- Fix save time format for the datetime field
+- Fix icon field dropdown broken display when SVG contains double quotes
+- Fix path traversal in `ajax_delete_file` for security
+- Fix timestamp should not be set for the time picker field
+
 = 5.11.1 - 2026-02-02 =
 
 **Improvements for the block editor field:**
@@ -164,7 +180,7 @@ If you want to use Meta Box, please follow these steps:
 - Fix custom rich text formats not working
 - Fix conflicts with `image_advanced` and `file_advanced` fields
 
-** Other changes:**
+**Other changes:**
 
 - Fix cannot create new terms with required date/time fields
 
